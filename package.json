@@ -1,0 +1,30 @@
+{
+  "name": "biblioteca-app",
+  "version": "1.0.0",
+  "description": "Sistema de Biblioteca Pública - PWA com React e Node.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "start": "cd server && npm start",
+    "render-build": "npm run install-all && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "pwa",
+    "biblioteca"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}
