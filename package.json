@@ -16,7 +16,15 @@
   "devDependencies": {
     "concurrently": "^8.2.0"
   },
-  "keywords": ["react", "nodejs", "pwa", "biblioteca"],
+  "keywords": [
+    "react",
+    "nodejs",
+    "pwa",
+    "biblioteca"
+  ],
   "author": "Junior",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
